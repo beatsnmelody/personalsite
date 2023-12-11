@@ -1,0 +1,16 @@
+:root {
+  --color-default: #fff;
+  /* or any other variables/style */
+}
+
+[data-theme='cupcake']{
+  --color-default: rgb(255, 255, 205);
+}
+
+[data-theme='dark']{
+  --color-default: #252b30;
+}
+
+body {
+	background-color: var(--color-default);
+}
