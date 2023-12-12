@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "dhurjati";
+    src: url("../fonts/dhurjati.otf");
+  }
