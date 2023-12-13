@@ -1,8 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
 
-@font-face {
-    font-family: "dhurjati";
-    src: url("../fonts/dhurjati.otf");
-  }
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');

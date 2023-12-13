@@ -1,10 +1,15 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+import "../App.jsx"
+
 export function NavBar() {
   return (
     <div className="navbar bg-accent">
       <div className="flex-1 space-x-1">
-        <a className="btn btn-ghost text-xl font-dhurjati text-secondary">
+        <Link to="/" className="btn btn-ghost text-xl font-dhurjati text-secondary">
           AL'S CREATIONS
-        </a>
+        </Link>
         <a className="btn btn-secondary text-xl font-dhurjati text-primary">
           Art
         </a>
@@ -17,9 +22,9 @@ export function NavBar() {
         <a className="btn btn-secondary text-xl font-dhurjati text-primary">
           Tech
         </a>
-        <a className="btn btn-secondary text-xl font-dhurjati text-primary">
+        <Link to="/about" className="btn btn-secondary text-xl font-dhurjati text-primary">
           About
-        </a>
+        </Link>
       </div>
     </div>
   );

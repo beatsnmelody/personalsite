@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        dhurjati: ["Dhurjati", "normal"],
+        dhurjati: ["Dhurjati", "sans-serif"],
       },
     },
   },
