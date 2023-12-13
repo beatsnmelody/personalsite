@@ -19,6 +19,15 @@ module.exports = {
           neutral: "#cac9b4",
           "base-100": "#fdfde1",
         },
+
+        shadowtown: {
+          primary: "#ac09e1",
+          secondary: "#ffffff",
+          accent: "fcb132",
+          neutral: "#868a83",
+          "base-100": "#000004",
+        },
+
       },
       "default",
       "retro",
