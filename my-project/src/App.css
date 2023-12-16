@@ -1,0 +1,25 @@
+/* :root {
+    --bg-color: #fff;
+    --headings-color: #000000;
+    --desc-color: #000000;
+  } */
+
+body[data-theme="bnm"] {
+  --primary: #d85441;
+  --secondary: #361f1b;
+  --accent: #f2dc74;
+  --neutral: #cac9b4;
+  --base-100: #fdfde1;
+}
+
+body[data-theme="shadowtown"] {
+  --primary: #ac09e1;
+  --secondary: #ffffff;
+  --accent: #fcb132;
+  --neutral: #868a83;
+  --base-100: #000004;
+}
+
+body {
+  background: var(--base-100) !important;
+}

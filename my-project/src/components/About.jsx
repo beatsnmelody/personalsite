@@ -11,7 +11,7 @@ export default function About() {
     return (
       <>
         <NavBar />
-        <div className="base-100 m-auto w-auto h-40 place-content">
+        <div className="base-100 m-auto w-auto min-h-screen place-content">
         <p className="">Let Me Introduce Myself!</p>
         <p className="">Alexandra Labaisse</p>
         <p className="">

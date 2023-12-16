@@ -23,7 +23,7 @@ module.exports = {
         shadowtown: {
           primary: "#ac09e1",
           secondary: "#ffffff",
-          accent: "fcb132",
+          accent: "#fcb132",
           neutral: "#868a83",
           "base-100": "#000004",
         },
