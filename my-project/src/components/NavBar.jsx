@@ -16,12 +16,12 @@ export function NavBar() {
         <a className="btn btn-secondary text-xl font-dhurjati text-primary">
           Animation
         </a>
-        <a className="btn btn-secondary text-xl font-dhurjati text-primary">
+        <Link to="/series" className="btn btn-secondary text-xl font-dhurjati text-primary">
           Series
-        </a>
-        <a className="btn btn-secondary text-xl font-dhurjati text-primary">
+        </Link>
+        <Link to="/websites" className="btn btn-secondary text-xl font-dhurjati text-primary">
           Tech
-        </a>
+        </Link>
         <Link to="/about" className="btn btn-secondary text-xl font-dhurjati text-primary">
           About
         </Link>
