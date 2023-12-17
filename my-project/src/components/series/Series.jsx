@@ -20,7 +20,7 @@ export default function Series() {
         <Link to="/" className="btn btn-ghost text-xl font-dhurjati text-secondary">
           Hokus Pokus
         </Link>
-        <Link to="/" className="btn btn-ghost text-xl font-dhurjati text-secondary">
+        <Link to="/series/ppp" className="btn btn-ghost text-xl font-dhurjati text-secondary">
           Post Pandemic Palooza
         </Link>
         <Link to="/" className="btn btn-ghost text-xl font-dhurjati text-secondary">

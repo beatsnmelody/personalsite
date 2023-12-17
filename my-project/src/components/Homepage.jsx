@@ -33,6 +33,51 @@ export default function Homepage() {
             onClick={() =>
               document.body.setAttribute("data-theme", "shadowtown")}
           />
+          <input
+            type="radio"
+            name="theme-buttons"
+            className="btn btn-primary theme-controller"
+            aria-label="Palooza"
+            value="ppp"
+            onClick={() =>
+              document.body.setAttribute("data-theme", "ppp")}
+          />
+          <input
+            type="radio"
+            name="theme-buttons"
+            className="btn btn-primary theme-controller"
+            aria-label="Hokus Pokus"
+            value="hp"
+            onClick={() =>
+              document.body.setAttribute("data-theme", "hp")}
+          />
+          <input
+            type="radio"
+            name="theme-buttons"
+            className="btn btn-primary theme-controller"
+            aria-label="Bubblegum"
+            value="bgcg"
+            onClick={() =>
+              document.body.setAttribute("data-theme", "bgcg")}
+          />
+          <input
+            type="radio"
+            name="theme-buttons"
+            className="btn btn-primary theme-controller"
+            aria-label="Fungi"
+            value="fungi"
+            onClick={() =>
+              document.body.setAttribute("data-theme", "fungi")}
+          />
+          <input
+            type="radio"
+            name="theme-buttons"
+            className="btn btn-primary theme-controller"
+            aria-label="Deplorable"
+            value="dd"
+            onClick={() =>
+              document.body.setAttribute("data-theme", "dd")}
+          />
         </div>
         <p className="text-secondary font-dhurjati text-3xl text-center text-decoration-line: underline ms-auto me-auto h-10 mt-1 flex flex-row justify-center">
           Theme Controller
