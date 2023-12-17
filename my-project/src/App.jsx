@@ -4,7 +4,12 @@ import Homepage from "./components/Homepage";
 import About from "./components/About";
 import Series from "./components/series/Series";
 import Websites from "./components/Tech";
-import PostPandemicPalooza from "./components/series/PostPandemicPalooza";
+import PostPandemicPalooza from "./components/series/PostPandemicPalooza"
+import BeatsAndMelody from "./components/series/BeatsNMelody";
+import BubblegumCowgirl from "./components/series/BubblegumCowgirl";
+import DeplorableDays from "./components/series/DeplorableDays";
+import HokusPokus from "./components/series/HokusPokus";
+import Shadowtown from "./components/series/Shadowtown";
 
 function App() {
   return (
@@ -16,6 +21,11 @@ function App() {
           <Route path="/websites" element={<Websites/>} />
           <Route path="/series" element={<Series/>} />
           <Route path="/series/ppp" element={<PostPandemicPalooza/>} />
+          <Route path="/series/bnm" element={<BeatsAndMelody/>} />
+          <Route path="/series/bgcg" element={<BubblegumCowgirl/>} />
+          <Route path="/series/dd" element={<DeplorableDays/>} />
+          <Route path="/series/hp" element={<HokusPokus/>} />
+          <Route path="/series/st" element={<Shadowtown/>} />
         </>
       </Routes>
     </Router>

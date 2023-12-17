@@ -11,25 +11,25 @@ export default function Series() {
           These are my series! Each series includes a premise, along with a few
           characters.
         </p>
-        <Link to="/" className="btn btn-ghost text-xl font-dhurjati text-secondary">
+        <Link to="/series/bnm" className="btn btn-ghost text-xl font-dhurjati text-secondary">
           Beats And Melody
         </Link>
-        <Link to="/" className="btn btn-ghost text-xl font-dhurjati text-secondary">
+        <Link to="/series/st" className="btn btn-ghost text-xl font-dhurjati text-secondary">
           Shadowtown
         </Link>
-        <Link to="/" className="btn btn-ghost text-xl font-dhurjati text-secondary">
+        <Link to="/series/hp" className="btn btn-ghost text-xl font-dhurjati text-secondary">
           Hokus Pokus
         </Link>
         <Link to="/series/ppp" className="btn btn-ghost text-xl font-dhurjati text-secondary">
           Post Pandemic Palooza
         </Link>
-        <Link to="/" className="btn btn-ghost text-xl font-dhurjati text-secondary">
+        <Link to="/series/bgcg" className="btn btn-ghost text-xl font-dhurjati text-secondary">
           Bubblegum Cowgirl
         </Link>
         <Link to="/" className="btn btn-ghost text-xl font-dhurjati text-secondary">
           Fungiverse
         </Link>
-        <Link to="/" className="btn btn-ghost text-xl font-dhurjati text-secondary">
+        <Link to="/series/dd" className="btn btn-ghost text-xl font-dhurjati text-secondary">
           Deplorable Days
         </Link>
       </div>
